@@ -1,0 +1,29 @@
+# SPDX-FileCopyrightText: 2021 design-docs AUTHORS
+#
+# SPDX-License-Identifier: MIT
+
+version = 1
+
+# Prose and metadata where a header would end up in the rendered output
+# (e.g., README shown on GitHub, the documentation rendered by mkdocs) or which
+# can not carry a comment. check_style.py also expects every document under
+# docs/ to start with its title.
+[[annotations]]
+path = [
+    "AUTHORS",
+    "README.md",
+    "CONTRIBUTING.md",
+    "docs/**/*.md",
+    ".idea/**",
+]
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2021 design-docs AUTHORS"
+SPDX-License-Identifier = "MIT"
+
+# The diagrams are rendered by Graphviz from the .dot files next to them, which
+# carry the header. A header added by hand would be lost on the next rendering.
+[[annotations]]
+path = "docs/**/*.svg"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "2021 design-docs AUTHORS"
+SPDX-License-Identifier = "MIT"

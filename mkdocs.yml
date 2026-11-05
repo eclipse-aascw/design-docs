@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2021 design-docs AUTHORS
+#
+# SPDX-License-Identifier: MIT
+
 site_name: Design Docs for aas-core
 nav:
     - Home: index.md

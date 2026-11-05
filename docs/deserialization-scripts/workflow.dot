@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2021 design-docs AUTHORS
+//
+// SPDX-License-Identifier: MIT
+
 digraph G {
     json_schema [label=< "Official" JSON schema >, shape=note];
 

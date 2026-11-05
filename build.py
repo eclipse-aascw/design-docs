@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2021 design-docs AUTHORS
+#
+# SPDX-License-Identifier: MIT
+
 """Render the design docs into HTML."""
 import argparse
 import subprocess
