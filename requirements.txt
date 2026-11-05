@@ -1,1 +1,6 @@
 mkdocs==1.1.2
+
+# NOTE (aaronzi, 2026-11-05):
+# mkdocs 1.1.2 uses jinja2.contextfilter, which Jinja2 3.1 removed, so we
+# keep Jinja2 below 3.1 as long as we stay on this mkdocs version.
+jinja2<3.1
