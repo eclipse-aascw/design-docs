@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2021 design-docs AUTHORS
+//
+// SPDX-License-Identifier: MIT
+
 digraph G {
     aasx_db [label="aasx-db", shape=box]
     aas_package [label="aas-package", shape=box]

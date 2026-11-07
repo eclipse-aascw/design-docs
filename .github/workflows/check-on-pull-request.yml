@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2021 design-docs AUTHORS
+#
+# SPDX-License-Identifier: MIT
+
 name: Check-on-pull-request
 
 on: [pull_request]
