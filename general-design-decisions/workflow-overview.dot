@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2021 design-docs AUTHORS
+//
+// SPDX-License-Identifier: MIT
+
 digraph G {
     base_meta_model [label="Base meta-model", shape=note];
 
